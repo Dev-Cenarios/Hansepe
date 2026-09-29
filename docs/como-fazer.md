@@ -1,5 +1,9 @@
 # Como fazer outro painel desta família
 
+> **Procedência:** cópia do `../sinan/docs/como-fazer.md`, a receita do painel
+> nacional, trazida no port de set/2026. Os exemplos citam dengue e
+> tuberculose; o que vale aqui é o método.
+
 Escrito no fim do primeiro painel, para quem vai começar o segundo.
 
 **Não é um resumo dos outros documentos.** O contrato de dados, o cronograma,
@@ -268,6 +272,5 @@ Cinco coisas que este projeto pagou e o próximo não precisa pagar:
 | Docker, nginx, deploy key, o susto do healthcheck | |
 | O que o painel de origem tem, tela por tela | `docs/inventario-funcionalidades.md` |
 | Divergências com o painel em R, decididas | `tests/paridade/excecoes.md` |
-| Banco cru do SINAN, para conferência | `docs/banco-cenarios.md` |
 | Superset, se um dia voltar | `docs/analise-livre.md` |
 | Perguntas abertas com a equipe parceira | `docs/perguntas-equipe-r.md` |

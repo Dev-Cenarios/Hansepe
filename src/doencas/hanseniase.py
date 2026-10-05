@@ -4,7 +4,7 @@ Reconstrói o painel Shiny ``PE_HANSE_06_01`` da equipe parceira. Só constantes
 cores, rótulos, ordem dos KPIs, métricas do mapa e variáveis de composição.
 
 **Casos novos e taxa de detecção seguem a definição do Ministério**
-(``MODOENTR = 1``), decisão de 20/set/2026 — o painel de origem usa
+(``MODOENTR = 1``) — o painel de origem usa
 ``casos_total``, que na extração é toda entrada no registro (recidiva,
 transferência e reingresso inclusive). Os demais números reproduzem a
 origem. Ver ``docs/paridade-hanseniase.md`` §1.
@@ -163,7 +163,7 @@ TAXAS = frozenset(
 
 #: O par de cores do boletim estadual: roxo para a série principal, laranja
 #: para a segunda (a linha do coeficiente nos Gráficos 1 e 2, o %GIF Cura no
-#: 11, o abandono no 13). Lidas do PDF em 28/set/2026.
+#: 11, o abandono no 13). Lidas do PDF do boletim.
 #:
 #: Vale só para os gráficos que reproduzem os do boletim. O resto do painel
 #: segue a identidade do Cenários — misturar as duas paletas na mesma tela é
@@ -175,7 +175,7 @@ COR_BOLETIM_SECUNDARIA = "#E8701A"
 #:
 #: O primeiro tom era ``#EDE9FE``, quase branco: no tema claro os municípios
 #: de classe "Baixo" sumiam no fundo da página e o mapa parecia furado.
-#: A rampa foi levantada em 25/set/2026 para começar num lilás que se lê
+#: A rampa foi levantada para começar num lilás que se lê
 #: sobre branco, mantendo a progressão até o roxo quase preto do topo.
 _ROXOS = (
     "#DCD3FA", "#C7B8F7", "#AE99F2", "#9173E8",
@@ -327,7 +327,7 @@ VARIAVEIS_NUMERICAS = frozenset({"CONTEXAM", "CONTREG", "NERVOSAFET", "DOSE_RECE
 
 #: Variáveis do SINAN oferecidas no painel de composição, agrupadas.
 #:
-#: ``CONTEXAM`` e ``CONTREG`` saíram em 28/set/2026: o valor deles é a
+#: ``CONTEXAM`` e ``CONTREG`` saíram daqui: o valor deles é a
 #: **quantidade** de contatos por caso, e a distribuição disso ("47 casos com
 #: 2 contatos examinados") não é indicador de nada. O que a vigilância cobra é
 #: a proporção de examinados entre registrados, que virou gráfico próprio, com
@@ -363,7 +363,7 @@ VARIAVEIS: dict[str, dict[str, str]] = {
     },
 }
 
-#: As que abrem de saída — e a escolha deixou de ser nossa em 28/set/2026.
+#: As que abrem de saída. A escolha deixou de ser nossa.
 #:
 #: São exatamente as cinco distribuições que o Boletim Epidemiológico
 #: publica, na ordem em que ele imprime: raça/cor (Gráfico 5), modo de

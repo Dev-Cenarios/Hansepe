@@ -54,3 +54,8 @@ desktop.ini
 # e saiu em 30/set/2026; o arquivo continua no disco de quem trabalha nele.
 docs/revisao-graficos.md
 
+# PDF gerado a partir do Markdown ao lado, para anexar em e-mail ou grupo.
+# Fora do versionamento de propósito: versionado, ele viraria uma segunda
+# fonte e divergiria do `.md` na primeira revisão que alguém esquecesse de
+# reexportar. O Markdown manda; o PDF se refaz quando precisar.
+docs/*.pdf

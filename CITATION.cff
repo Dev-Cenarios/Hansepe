@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Se usar este painel ou o seu código, cite-o como abaixo."
+type: software
+title: "Painel de Monitoramento da Hanseníase — Pernambuco"
+abstract: "Painel de vigilância epidemiológica da hanseníase em Pernambuco, com recorte por município, região de saúde e macrorregião de saúde, a partir do SINAN."
+authors:
+  - given-names: Matheus
+    family-names: Cardoso
+    affiliation: "Projeto Cenários+, Universidade de Brasília"
+repository-code: "https://github.com/Dev-Cenarios/painel-hanseniase-pernambuco"
+url: "https://painel.cenarios.unb.br/cenarios/hansepe/"
+license: MIT
+keywords:
+  - epidemiologia
+  - vigilância epidemiológica
+  - hanseníase
+  - Pernambuco
+  - SINAN

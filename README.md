@@ -1,6 +1,6 @@
 # Painel de Monitoramento da Hanseníase — Pernambuco
 
-[![CI](https://github.com/Dev-Cenarios/Hansepe/actions/workflows/ci.yml/badge.svg)](https://github.com/Dev-Cenarios/Hansepe/actions/workflows/ci.yml)
+[![CI](https://github.com/Dev-Cenarios/painel-hanseniase-pernambuco/actions/workflows/ci.yml/badge.svg)](https://github.com/Dev-Cenarios/painel-hanseniase-pernambuco/actions/workflows/ci.yml)
 ![Python 3.13](https://img.shields.io/badge/python-3.13-3776AB?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/streamlit-1.61-FF4B4B?logo=streamlit&logoColor=white)
 ![deck.gl](https://img.shields.io/badge/deck.gl-mapa-1C1C1C)
@@ -27,6 +27,7 @@ Secretaria Estadual de Saúde e para as equipes de vigilância dos municípios.
 - [Documentação](#documentação)
 - [Família Cenários+](#família-cenários)
 - [Fontes e créditos](#fontes-e-créditos)
+- [Como citar e licença](#como-citar-e-licença)
 
 ## Visão geral
 
@@ -109,8 +110,8 @@ até a tela: [`docs/requisitos.md`](docs/requisitos.md).
 Requisitos: Python 3.13 e a extração de dados (ver acima).
 
 ```bash
-git clone https://github.com/Dev-Cenarios/Hansepe.git
-cd Hansepe
+git clone https://github.com/Dev-Cenarios/painel-hanseniase-pernambuco.git
+cd painel-hanseniase-pernambuco
 python -m venv .venv && .venv/Scripts/activate        # Linux/macOS: source .venv/bin/activate
 pip install -r requirements.lock.txt
 python -m scripts.extrair_dados_hanseniase --origem <pasta da extração>
@@ -150,7 +151,7 @@ tela inteira por `AppTest`, em todos os níveis de navegação.
 ## Estrutura do repositório
 
 ```
-Hansepe/
+painel-hanseniase-pernambuco/
 ├── app.py                        composição da tela
 ├── src/
 │   ├── estado.py                 navegação PE → macro → região → município
@@ -204,8 +205,8 @@ identidade, e as melhorias circulam entre eles:
 
 | Painel | Recorte | Repositório |
 |---|---|---|
-| Hanseníase — Pernambuco (este) | estado, por município e região de saúde | [Dev-Cenarios/Hansepe](https://github.com/Dev-Cenarios/Hansepe) |
-| Tuberculose — Pernambuco | estado, por município e região de saúde | [Dev-Cenarios/tbpe](https://github.com/Dev-Cenarios/tbpe) |
+| Hanseníase — Pernambuco (este) | estado, por município e região de saúde | [Dev-Cenarios/painel-hanseniase-pernambuco](https://github.com/Dev-Cenarios/painel-hanseniase-pernambuco) |
+| Tuberculose — Pernambuco | estado, por município e região de saúde | [Dev-Cenarios/painel-tuberculose-pernambuco](https://github.com/Dev-Cenarios/painel-tuberculose-pernambuco) |
 | Tuberculose — Recife | cidade, por bairro e distrito sanitário | ainda não publicado |
 
 ## Fontes e créditos
@@ -218,3 +219,13 @@ identidade, e as melhorias circulam entre eles:
 - **Origem:** painel de monitoramento da hanseníase em R/Shiny, da equipe
   parceira do projeto Cenários+ (UnB).
 - **Desenvolvimento:** projeto Cenários+ — Universidade de Brasília.
+
+## Como citar e licença
+
+Se usar o painel ou o código num trabalho, use o botão **"Cite this
+repository"** aqui no GitHub, que lê o [`CITATION.cff`](CITATION.cff).
+
+O código é aberto, sob a licença [MIT](LICENSE): pode ser usado, copiado e
+adaptado, desde que o aviso de copyright do Projeto Cenários vá junto. A
+licença vale para o código. Os dados são do Ministério da Saúde, do IBGE e
+da SES-PE, e seguem as regras de cada fonte.

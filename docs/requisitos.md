@@ -18,7 +18,7 @@ enquanto roda e lê arquivos que ficam no próprio disco.
 
 ### Para quem só vai usar
 
-Basta um navegador. O painel abre em <https://cenarios.unb.br/cenarios/hansepe/>
+Basta um navegador. O painel abre em <https://painel.cenarios.unb.br/cenarios/hansepe/>
 e funciona em qualquer computador dos últimos dez anos.
 
 | | |

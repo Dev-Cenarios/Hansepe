@@ -24,6 +24,7 @@ from src.data import config as config_dados
 #: Os demais — tema, estado, resiliência — rodam em qualquer clone.
 PRECISAM_DE_DADOS = (
     "test_aplicacao.py",
+    "test_canal.py",
     "test_composicao.py",
     "test_estados_vazios.py",
     "test_geo.py",

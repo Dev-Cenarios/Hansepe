@@ -186,7 +186,8 @@ municípios por classe causar estranheza na apresentação.
 ## 5. Canal endêmico: cinco anos de referência
 
 A origem usa os três anos anteriores como referência (Q1/Q3 de 2022–2024
-para 2025). Aqui são **cinco** (2020–2024), a decisão §6 do RecifeTB: com
+para 2025). Aqui são **cinco** (2020–2024), a decisão §6 de
+[`paridade-com-o-painel-r.md`](paridade-com-o-painel-r.md): com
 três, um único ano atípico — 2020 — domina a faixa. As linhas de cada ano
 de referência continuam no gráfico, então quem quiser ver os três de lá vê.
 

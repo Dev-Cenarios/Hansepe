@@ -672,7 +672,8 @@ FAIXAS = (
 #: Tipos de pirâmide e de onde cada um vem hoje.
 #:
 #: `piramides` traz CURA zerada para tuberculose — o dado existe na fonte,
-#: mas some no pipeline. Ver `../sinan/docs/perguntas-equipe-r.md`.
+#: mas some no pipeline. A pergunta foi levada à equipe parceira e está
+#: registrada no repositório do painel nacional.
 #:
 #: Óbito saiu junto com o resto do SIM. A hanseníase não
 #: mostra óbito em lugar nenhum do painel.

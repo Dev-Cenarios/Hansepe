@@ -39,7 +39,7 @@ sazonal precisa saber disso; passar de três para cinco anos melhora a
 estabilidade da faixa, não resolve a tendência.
 
 A divergência de número de anos com o painel de origem está registrada em
-`../RecifeTB/docs/paridade-com-o-painel-r.md` §6.
+`docs/paridade-com-o-painel-r.md` §6.
 
 A divergência de denominador
 ----------------------------
@@ -54,7 +54,7 @@ a população de hoje, um número que não é a taxa de ano nenhum. Como o canal
 existe para dizer se o mês corrente está fora do padrão **histórico**, o
 padrão tem de ser o que de fato aconteceu.
 
-Ver `../RecifeTB/docs/paridade-com-o-painel-r.md` §5.
+Ver `docs/paridade-com-o-painel-r.md` §5.
 """
 
 from __future__ import annotations
@@ -74,7 +74,7 @@ _ANO_MIN = 2010
 #: Quantos anos anteriores compõem a faixa.
 #:
 #: Cinco por decisão nossa; o painel de origem usa três. Ver a docstring do
-#: módulo e `../RecifeTB/docs/paridade-com-o-painel-r.md` §6 — mudar este
+#: módulo e `docs/paridade-com-o-painel-r.md` §6 — mudar este
 #: número muda o que o gráfico
 #: **afirma**, não só como ele parece.
 ANOS_REFERENCIA = 5
@@ -213,7 +213,7 @@ def epicurva(esc: Escopo, ano_min: int | None = None) -> pd.DataFrame:
     **Vai até o último ano com dado, e não até 2019.** A epicurva do painel
     deles tem 120 pontos e termina em ``2019-12`` com dado disponível até 2023
     — janela fixa de dez anos ou truncamento, é a pergunta §4 do
-    `../RecifeTB/docs/paridade-com-o-painel-r.md`, ainda sem resposta. Reproduzir o corte por imitação seria
+    `docs/paridade-com-o-painel-r.md`, ainda sem resposta. Reproduzir o corte por imitação seria
     herdar um comportamento que ninguém sabe explicar; e num painel cuja
     leitura principal é "a incidência subiu desde 2020", esconder 2020 a 2023
     apagaria justamente o que ele tem a dizer.
